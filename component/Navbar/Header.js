@@ -76,11 +76,12 @@ const MenuLinks = ({ isOpen }) => {
         direction={["column", "row", "row", "row"]}
         pt={[4, 4, 0, 0]}
       >
-        <MenuItem isExternal to="https://www.notion.so/utkalhacks/UtkalHacks-Schedule-feee511dc8c8405a9bc4759b69154ead">Schedule</MenuItem>
+        <MenuItem _focus={{ boxShadow: "none" }} isExternal to="https://summit.utkalhacks.tech/">Summits</MenuItem>
+        <MenuItem _focus={{ boxShadow: "none" }} isExternal to="https://www.notion.so/utkalhacks/UtkalHacks-Schedule-feee511dc8c8405a9bc4759b69154ead">Schedule</MenuItem>
         {/* <MenuItem to="/">Prizes </MenuItem> */}
-        <MenuItem isExternal to="https://www.notion.so/utkalhacks/UtkalHacks-Mini-Challenges-384e736650044e00bd90fa8bdf8ecfa1">Challenges</MenuItem>
-        <MenuItem isExternal to="https://www.notion.so/utkalhacks/UtkalHacks-Ideas-Vault-cead37d84a4744f38121d19b6bc8afaa">Ideas</MenuItem>
-        <MenuItem isExternal to="https://wiki.utkalhacks.tech">Wiki</MenuItem>
+        <MenuItem _focus={{ boxShadow: "none" }} isExternal to="https://www.notion.so/utkalhacks/UtkalHacks-Mini-Challenges-384e736650044e00bd90fa8bdf8ecfa1">Challenges</MenuItem>
+        <MenuItem _focus={{ boxShadow: "none" }} isExternal to="https://www.notion.so/utkalhacks/UtkalHacks-Ideas-Vault-cead37d84a4744f38121d19b6bc8afaa">Ideas</MenuItem>
+        <MenuItem _focus={{ boxShadow: "none" }} isExternal to="https://wiki.utkalhacks.tech">Wiki</MenuItem>
       </Stack>
     </Box>
   )
