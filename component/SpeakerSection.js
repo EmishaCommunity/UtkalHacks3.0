@@ -60,7 +60,6 @@ const speakersData = [
     id: "6",
     name: "Tadit Dash",
     title: "Software Engineer | Author",
-    company: "Prev. Software Engineer @Mindfire Solutions",
     profilepic: "https://res.cloudinary.com/emishalabs/image/upload/v1616178958/UtkalHacks%203.0/Tadit_jnv2dy.jpg",
     linkedin: "https://www.linkedin.com/in/taditdash/",
     github: "https://github.com/taditdash",
